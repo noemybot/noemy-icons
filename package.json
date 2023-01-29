@@ -1,0 +1,32 @@
+{
+  "name": "noemy-icons",
+  "displayName": "Noemy Icons",
+  "description": "Ícones para utilizar no Explorer",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes",
+    "Extension Packs",
+    "Other"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "noemy-icons-flat",
+        "label": "Noemy Icons (Flat)",
+        "path": "./icons/flat.json"
+      },
+      {
+        "id": "noemy-icons-colorful",
+        "label": "Noemy Icons (Colorful)",
+        "path": "./icons/colorful.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noemybot/noemy-icons"
+  }
+}

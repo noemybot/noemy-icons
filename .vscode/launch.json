@@ -1,0 +1,13 @@
+{
+	"configurations": [
+	
+		{
+			"name": "Run noemy-icons",
+			"type": "extensionHost",
+			"request": "launch",
+			"args": [
+				"--extensionDevelopmentPath=${workspaceFolder}"
+			]
+		}
+	]
+}

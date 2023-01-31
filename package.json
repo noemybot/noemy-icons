@@ -6,6 +6,9 @@
   "engines": {
     "vscode": "*"
   },
+  "scripts": {
+    "build": "node scripts/config.js"
+  },
   "categories": [
     "Themes",
     "Extension Packs",
@@ -16,12 +19,12 @@
       {
         "id": "noemy-icons-flat",
         "label": "Noemy Icons (Flat)",
-        "path": "./icons/flat.json"
+        "path": "./dist/flat.json"
       },
       {
         "id": "noemy-icons-colorful",
         "label": "Noemy Icons (Colorful)",
-        "path": "./icons/colorful.json"
+        "path": "./dist/colorful.json"
       }
     ]
   },

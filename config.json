@@ -1,0 +1,15 @@
+{
+    "name": "Noemy Icons",
+    "types": ["flat", "colorful"],
+    "folders": {
+        "api": ["api"],
+        "docker": ["docker", ".docker"],
+        "git": ["git", ".git"],
+        "javascript": ["javascript", "js"],
+        "laravel": ["laravel"],
+        "node": ["node_modules"],
+        "typescript": ["typescript", "ts"],
+        "vscode": ["vscode", ".vscode"],
+        "vue": ["vue"]
+    }
+}
